@@ -1,4 +1,4 @@
-import fastify, { FastifyInstance } from "fastify"
+import { FastifyInstance } from "fastify"
 import { knex } from "../database"
 import { randomUUID } from 'node:crypto'
 import { z } from "zod"
